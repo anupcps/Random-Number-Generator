@@ -1,0 +1,51 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en");
+
+*,html,body{
+	font-size:14px;
+	font-family: Open Sans;
+}
+.container{
+	background:#ffffff;
+	margin:18px auto;
+}
+header{
+	background:black;
+	padding:20px;
+}
+header .logo a{
+	font-size:20px;
+	letter-spacing:1px;
+	font-weight:900;
+	color:white;
+	text-decoration:none;
+}
+header .apps_name{
+	font-size:18px;
+	letter-spacing:2px;
+	font-weight:300;
+	color:#0275d8;
+}
+.main_div{
+	background:white;
+	min-height:400px;
+}
+.output, .action_tools{
+	text-align:center;
+}
+.output{
+	margin-top:10%;
+}
+.random_num_output{
+	font-size:50px;
+	font-weight:900;
+	letter-spacing:1px;
+	
+}
+.action_tools{
+	margin-top:3%;
+}
+footer{
+	background:black;
+	color:white;
+	padding:20px;
+}
